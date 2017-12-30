@@ -4,4 +4,4 @@ An image with reddcoind, not production ready, may be outdated, use it at your o
 
 ## Usage
 
-```docker run --name=reddcoind -d -v /srv/reddcoin:/data --restart always  riccardoblb/reddcoin:amd64```
+```docker run --name=reddcoind -d -v /srv/reddcoin:/data --restart always  riccardoblb/reddcoind-docker:amd64```
