@@ -4,9 +4,11 @@ MAINTAINER Riccardo Balbo <riccardo0blb@gmail.com>
 ENV   DATA_DIR="/data" \
     DL="https://github.com/reddcoin-project/reddcoin/releases/download/v2.0.0.0/reddcoin-2.0.0.0-linux.tar.gz" \
     DL_HASH="c349881b9ea4496cac3f348647317d1b585306fbdfff57bb4fa2687cf0148bfb" \
-    BOOTSTRAP="https://github.com/reddcoin-project/reddcoin/releases/download/v2.0.0.0/bootstrap.dat.xz" \
-    BOOTSTRAP_HASH="dfce44c9ae1d6a6cd3a7f1ac8f0730a427b7b2162f94f2bac177cb027c5628c8" \
-    INST_DIR="/opt/reddcoin"
+    BOOTSTRAP="" \
+    BOOTSTRAP_HASH="" \
+    INST_DIR="/opt/reddcoin" \
+    CONFIG_FILE="reddcoin.conf"
+ENV BINARY="/opt/reddcoin/bin/64/reddcoind"
 
 ADD init.sh /init.sh 
 
